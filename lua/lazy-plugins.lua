@@ -62,6 +62,7 @@ require('lazy').setup({
   require 'custom.plugins.material-theme',
   require 'custom.plugins.lualine',
   require 'custom.plugins.techbase-theme',
+  require 'custom.plugins.nord-theme',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
