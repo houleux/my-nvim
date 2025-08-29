@@ -23,8 +23,6 @@ require('lazy').setup({
   -- modular approach: using `require 'path.name'` will
   -- include a plugin definition from file lua/path/name.lua
 
-  require 'kickstart.plugins.fugitive-vim',
-
   require 'kickstart.plugins.gitsigns',
 
   require 'kickstart.plugins.which-key',
@@ -62,7 +60,7 @@ require('lazy').setup({
 
   require 'custom.plugins.github_colorscheme',
   require 'custom.plugins.material-theme',
-  -- require 'custom.plugins.lualine',
+  require 'custom.plugins.lualine',
   require 'custom.plugins.techbase-theme',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
